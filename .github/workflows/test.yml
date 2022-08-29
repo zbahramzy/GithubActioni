@@ -23,6 +23,8 @@ jobs:
       - name: Directory Powershell
         run: Get-Location
       - name: Directory Bash
-        run: pwd
+        run: |
+          pwd
+          which java
         shell: bash
 
